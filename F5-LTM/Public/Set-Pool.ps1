@@ -22,8 +22,7 @@
             
             Sets the description of an existing Pool.
 
-        .EXAMPLE
-            Set-Pool -Name 'northwindtraders_servers' -MemberDefinitionList {192.168.1.100,80},{192.168.1.101,80}
+        .EXAMPLE            Set-Pool -Name 'northwindtraders_servers' -MemberDefinitionList {192.168.1.100,80},{192.168.1.101,80}
             
         .EXAMPLE
             $pool = Get-Pool -Name 'northwindtraders_servers';
